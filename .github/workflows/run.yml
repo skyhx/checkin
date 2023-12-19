@@ -5,6 +5,7 @@ on:
   push:
   schedule:
     - cron: 10 16 * * *
+    # 每天北京时间 00:10 会自动签到
 
 jobs:
   run:
